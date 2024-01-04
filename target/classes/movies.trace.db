@@ -1,0 +1,18 @@
+2024-01-04 11:20:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "CHARACTER VARYING to BOOLEAN"; SQL statement:
+update MOVIELIST set movieName = ? and movieId = ? [22018-214]
+2024-01-04 11:32:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "update MOVIELIST set movieName = ? [*]movieId = ?"; SQL statement:
+update MOVIELIST set movieName = ? movieId = ? [42000-214]
+2024-01-04 11:37:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "update MOVIELIST set movieName = ? [*]movieId = ?"; SQL statement:
+update MOVIELIST set movieName = ? movieId = ? [42000-214]
+2024-01-04 12:19:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "update MOVIELIST set movieName = ? [*]movieId = ?"; SQL statement:
+update MOVIELIST set movieName = ? movieId = ? [42000-214]
+2024-01-04 12:19:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "update MOVIELIST set movieName = ? [*]movieId = ?"; SQL statement:
+update MOVIELIST set movieName = ? movieId = ? [42000-214]
+2024-01-04 12:23:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MOVIELIST" not found (this database is empty); SQL statement:
+select * from MOVIELIST where movieId = ? [42104-214]
